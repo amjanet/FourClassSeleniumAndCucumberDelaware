@@ -17,7 +17,7 @@ public class loginStep {
     }
     @When("ingreso mis credenciales correctas")
     public void ingreso_mis_credenciales_correctas() {
-    driver.findElement(By.cssSelector("input#usr")).sendKeys("Yessenia");
+    driver.findElement(By.cssSelector("input#usr")).sendKeys("Janet");
     }
     @Then("me muestra el Dasboard principal")
     public void me_muestra_el_dasboard_principal() {
